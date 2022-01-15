@@ -25,3 +25,32 @@ int main()
 
 	return 0;
 }
+
+
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int Max(int x, int y)
+{
+	if (x >= y) {
+
+		return x;
+	}
+	else {
+		return y;
+	}
+}
+                
+int main()
+{
+	int num1 = 0;
+	int num2 = 0;
+	int ans = 0;
+	printf("输入两个数以比较大小>:");
+	scanf("%d%d", &num1, &num2);
+	ans = Max(num1, num2);
+	printf("%d\n", ans);
+
+	return 0;
+}
