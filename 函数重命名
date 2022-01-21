@@ -1,0 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+typedef unsigned  int nm;
+int main()
+{
+	register int num = 5;
+	nm w = 500;
+	printf("%d", w);
+	return 0;
+}
