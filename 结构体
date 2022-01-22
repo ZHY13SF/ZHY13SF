@@ -1,0 +1,27 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+struct YY
+{
+	char name[20];
+	int age;
+	float socre;
+
+
+
+
+};
+
+
+
+
+
+
+int main() {
+	struct YY B = { "李沛",18,60.5 };
+	printf("%s %d %f\n", B.name, B.age, B.socre);
+	struct YY* ps = &B;
+	printf("%s %d %f", ps->name, ps->age, ps->socre);
+	
+
+	return 0;
+}
