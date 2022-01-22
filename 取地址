@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main() {
+	
+
+	int a = 50;
+	printf("%d\n", &a);
+
+
+	return 0;
+}
+同时取地址可应用于scanf 可查阅前面scanf的应用
