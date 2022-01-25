@@ -1,0 +1,25 @@
+int main() {
+	int m = 1;
+	int n = 5;
+	switch (n)
+	{
+	case 1: m++; n--;
+	case 5: m++;
+		break;
+	}
+	switch (m)
+	{
+	case 1:m++;
+		break;
+	case 2:n++; n++;
+	case 3: m++;
+
+
+	default:
+
+			break;
+	}
+	printf("m=%d,n=%d\n", m, n);
+	return 0;
+}
+答案 m=3 n=7
