@@ -33,3 +33,5 @@ int main() {
 
 		return 0;
 }
+case后接整型 常量 表达式
+swtich后接整形表达式 int  
