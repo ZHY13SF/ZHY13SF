@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	int i = 1;
+	while (i <= 10)
+	{
+		if (5 == i)
+			continue;
+		printf("%d\n", i);
+		i++;
+	}
+	return  0;
+}
+这里代码会继续执行 一直跑 不会停下 
+如果换成了break代码就会终止
+
+
+
+
+
+
